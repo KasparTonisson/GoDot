@@ -24,13 +24,13 @@ func _ready():
 	print(punktid)
 	for i in punktid:
 		if i >= 90:
-			print(i,": 5")
+			print(i,"p",": 5")
 		elif i >= 75:
-			print(i, ": 4")
+			print(i,"p", ": 4")
 		elif i >= 50:
-			print(i, ": 3")
+			print(i,"p", ": 3")
 		else:
-			print(i, ": 2")	
+			print(i,"p", ": 2")	
 		
 		
 	
